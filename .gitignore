@@ -1,0 +1,59 @@
+# Ignore build output
+bin/
+obj/
+publish/
+out/
+
+# Visual Studio Code settings
+.vscode/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Mac system files
+.DS_Store
+
+# Logs
+*.log
+
+# NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+
+# Secrets
+appsettings.Development.json
+secrets.json
+
+# Resharper
+*.DotSettings.user
+
+# Rider
+.idea/
+
+# Dotnet-specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Azure Functions artifacts
+local.settings.json
+
+# Rider IDE / JetBrains
+.idea/
+*.sln.iml
+
+# If using ngrok
+ngrok.log
+ngrok.yml
+
+# Node.js (if you’re mixing JS/TS frontend for UI testing)
+node_modules/
+dist/
+.env
+
+# Zip deploy packages
+*.zip
